@@ -7,3 +7,9 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+allprojects {
+    ext{
+        Dagger = "2.41"
+    }
+}
