@@ -1,9 +1,9 @@
 package com.john.injection;
 
 import com.john.injection.injection.DaggerAppComponent;
-
 import dagger.android.AndroidInjector;
 import dagger.android.DaggerApplication;
+
 
 public class BaseApplication extends DaggerApplication {
     @Override
